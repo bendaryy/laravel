@@ -1,0 +1,40 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+p{
+			display: inline-block;
+		}
+		.error{
+			color: red;
+		}
+		input[type="submit"]{
+			display: block;
+			margin: 5px;
+		}
+		h1,h2,input[class="btn btn-primary"][value="ADD CUSTOMER"]{
+			margin: auto;
+			padding: 10px;
+			text-align: center;
+		}
+	  	table,tr,td,th{
+	  		border: 1px solid black;
+	  		text-align: center;
+	  		margin: auto;
+	  		margin-top: 50px;
+	  		padding: 5px;
+	  	}
+	  	table{
+	  		width: 80%;
+	  		margin-bottom: 50px;
+	  	}
+	  	.home{
+	  	background-color:red;
+	  	color:white;
+	  	padding:30px;
+	  	text-align:center;
+	  	}
